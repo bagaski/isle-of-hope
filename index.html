@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap" rel="stylesheet">
+    <title>Isle of Hope</title>
+  </head>
+
+  <body>
+
+<!--Home section-->
+    <section id="home">
+      <div class="flag"><div class="circle"></div></div>
+      <p class="welcome">Welcome to the Isle of Hope</p>
+      <div class="btn" onclick="displayScene('scene1')"><p>Enter</p></div>
+    </section>
+
+<!--Scene 1 section-->
+    <section id="scene1">
+      <audio id="soundscape" src="mayend.wav" loop="loop"></audio>
+      <div class="moon"></div>
+      <div class="planet"></div>
+      <div class="sea">
+        <div class="isles">
+          <div class="sea1"></div>
+          <div class="sea2"></div>
+        </div>
+        <div class="sea2"></div>
+      </div>
+    </section>
+
+    <script language="JavaScript" type="text/javascript">
+
+
+      function displayScene(element) {
+        (document.getElementById(element).style.display = 'block')
+        &&(document.getElementById("home").style.display = 'none')
+        &&(document.getElementById("soundscape").play())
+      }
+
+
+</script>
+  </body>
+
+</html>
