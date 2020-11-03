@@ -6,16 +6,16 @@ There is one introduction page wich links to the first landscape. Eventually I w
 
 I will stick to html, css and vanilla js for this project. Consider the following:
 
--> Colours from page to page
+--> colours from page to page
 
--> interactions
+--> interactions
 
--> audio
+--> audio
 
--> animations
+--> animations
 
--> navigation 
+--> navigation 
 
--> text
+--> text
 
--> narrative
+--> narrative
