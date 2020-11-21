@@ -10,9 +10,9 @@ I will stick to html, css and vanilla js for this project. Consider the followin
 
 --> interactions
 
---> audio
+--> audio (web audio api?)
 
---> animations
+--> animations (canvas?)
 
 --> navigation 
 
